@@ -5,7 +5,7 @@ single-page application built in plain PHP, served at
 [vibert.mathieu.free.fr](http://vibert.mathieu.free.fr).
 
 The site presents a home page (presentation, contact and professional networks) and a
-detailed *Curriculum Vitae* (computer skills, work experience, education) that can also be
+detailed _Curriculum Vitae_ (computer skills, work experience, education) that can also be
 downloaded as a PDF.
 
 ## Features
@@ -15,8 +15,7 @@ downloaded as a PDF.
 - **Single front controller** — every page is routed through [index.php](index.php) using
   a query-string parameter (`?home`, `?cv`).
 - **Skills summary** — technology "signs" (logos) grouped by category (software, web,
-  DBMS, version control, OS, education, companies), each linking to the relevant external
-  site.
+  DBMS, version control, OS, education, companies).
 - **Downloadable CV** — the CV is served as a PDF through
   [files/downloadFile.php](files/downloadFile.php), in the language currently selected.
 - **Responsive layout** — built on Bootstrap and jQuery.
@@ -40,7 +39,6 @@ downloaded as a PDF.
 ├── arrays/                 # Configuration data
 │   ├── common.php          #   pages, languages, networks, skills summary groups
 │   ├── cvInfo.php          #   name, email, CV file formats / MIME types
-│   └── externalLinks.php   #   external URLs for the skill/company signs
 ├── classes/                # PHP classes (Query helper)
 ├── contents/               # View fragments included by index.php
 │   ├── header.php / menu.php / footer.php

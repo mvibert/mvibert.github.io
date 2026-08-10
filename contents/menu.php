@@ -8,11 +8,9 @@
 	 */
 
 	defined ('ROOT') or die('Restricted access');
-	
+
 /////////////////////////////////////////////////////////////////////////////////////////
 
-	include('arrays/externalLinks.php');
-	
 ?>
 
 			<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="topMenuBar">
@@ -26,23 +24,23 @@
 					</div>
 					<div class="collapse navbar-collapse" id="topMenu">
 						<ul class="navbar-nav">
-						
+
 						<?php
-						
+
 							foreach ( $contents as $item => $sections ) {
 							?>
-							
+
 							<li class="nav-item<?php if ($path == $item) {echo ' active';} ?>">
 								<a class="nav-link" href="<?php echo urlWithPath('/?'.$item); ?>#page-top" title="<?php echo $titles [$item]; ?>">
 									<b><?php echo $titles[$item]; ?></b>
 								</a>
 							</li>
-									
+
 							<?php
 								if ($path == $item) {
 									foreach ( $sections as $section ) {
 									?>
-									
+
 									<li class="nav-item">
 										<a class="nav-link" href="<?php echo urlWithPath('/?'.$item).'#'.$section; ?>" title="<?php echo $translations [$section]; ?>">
 											<b><?php echo $translations[$section]; ?></b>
@@ -54,7 +52,7 @@
 								}
 
 							}
-						
+
 						?>
 
 							<li class="nav-item">
@@ -70,13 +68,13 @@
 									<?php echo $translations ['language']; ?> <span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="languagesDropdown">
-							
+
 								<?php
-								
+
 									foreach ( $languages as $language ) {
-				
+
 										?>
-										
+
 										<li class="languageLinks">
 											<form id="<?php echo $language ?>LanguageForm" method="post" action="">
 												<div class="media">
@@ -98,20 +96,20 @@
 												</div>
 											</form>
 										</li>
-										
+
 										<?php
-								
+
 									}
-								
+
 								?>
-								
+
 								</ul>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-			
+
 <?php
 
 ?>

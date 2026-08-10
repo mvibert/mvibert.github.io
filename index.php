@@ -12,7 +12,6 @@ define ( 'ROOT', 1 );
 
 include ('arrays/common.php');
 include ('arrays/cvInfo.php');
-include ('arrays/externalLinks.php');
 include ('inc/htmlFacilities.inc.php');
 include ('inc/testFunctions.inc.php');
 

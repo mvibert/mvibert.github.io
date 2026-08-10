@@ -75,7 +75,7 @@ $translations['cvWorkAusyDescription'] = 'Missions :<br/><br/>'
     .'<li>PDIR, application web surcouche de Livedoc, Gestion Electronique de Documents d\'Orange</li></ul><br/>'
     .'Mission de 2 mois chez La Poste pour une application web permettant de r&eacute;ceptionner des &eacute;v&egrave;nements re&ccedil;us de composants g&eacute;rant la prise en charge de services de La Poste pour les traiter et les redistribuer sous un autre format vers le service de facturation<br/><br/>'
     .'Mission de 18 mois chez Orange pour une application de signature &eacute;lectronique de documents<br/><br/>';
-$translations['cvWorkAusyEnvironment'] = 'Environnement : Java 11, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git, Docker, Kafka';
+$translations['cvWorkAusyEnvironment'] = 'Environnement : Java 11, PHP, MySQL, PostgreSQL, HTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git, Docker, Kafka';
 
 $translations['cvWorkProsodieDates'] = '2012 - 2017 (5 ans)';
 $translations['cvWorkProsodieCompany'] = 'Prosodie';
@@ -87,14 +87,14 @@ $translations['cvWorkProsodieDescription'] = 'Projets :<br/><br/>'
     .'D&eacute;veloppement d\'un outil permettant de passer des appels vocaux via un navigateur en s\'appuyant sur l\'API WebRTC<br/><br/>'
     .'D&eacute;veloppement d\'Iry, un prototype d\'application de domotique en entreprise en Java / J2EE pour Rexel<br/><br/>'
     .'&Eacute;tudes, d&eacute;veloppement, recette et maintenance sur le site d\'e-commerce d\'Yves Rocher<br/><br/>';
-$translations['cvWorkProsodieEnvironment'] = 'Environnement : Java 8, Oracle, PostgreSQL, Microsoft SQL Server, MySQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, JSP, PHP, Spring, Hibernate, BeanShell, FreeMarker, AngularJS, LeanKit, Jira, Mantis, REST/JSON, Git, SVN';
+$translations['cvWorkProsodieEnvironment'] = 'Environnement : Java 8, Oracle, PostgreSQL, Microsoft SQL Server, MySQL, HTML/CSS, JavaScript, jQuery, Bootstrap, JSP, PHP, Spring, Hibernate, BeanShell, FreeMarker, AngularJS, LeanKit, Jira, Mantis, REST/JSON, Git, SVN';
 
 $translations['cvWorkIntitekDates'] = '2011 - 2012 (7 mois)';
 $translations['cvWorkIntitekCompany'] = 'Intitek';
 $translations['cvWorkIntitekRole'] = 'Consultant ing&eacute;nieur &eacute;tude et d&eacute;veloppement';
 $translations['cvWorkIntitekDescription'] = 'Client : Prosodie';
 $translations['cvWorkIntitekDescriptionEnd'] = 'Projet : site d\'e-commerce ' . 'd\'Yves Rocher (Conception, d&eacute;veloppement, &eacute;volution) en Java / J2EE';
-$translations['cvWorkIntitekEnvironment'] = 'Environnement : Java 6, Oracle, XHTML/CSS, JavaScript, jQuery, JSP, BeanShell, FreeMarker, Mantis, SVN';
+$translations['cvWorkIntitekEnvironment'] = 'Environnement : Java 6, Oracle, HTML/CSS, JavaScript, jQuery, JSP, BeanShell, FreeMarker, Mantis, SVN';
 
 $translations['cvWorkGFIDates'] = '2011 (6 mois)';
 $translations['cvWorkGFICompany'] = 'GFI Progiciels, soci&eacute;t&eacute; du groupe GFI Informatique';
@@ -126,8 +126,6 @@ $translations['cvDiplomaWorkingChidren'] = 'BAFA';
 
 $translations['cvFileLink'] = 'R&eacute;cup&eacute;rer le CV au format PDF';
 
-$translations['footerCSSPicture'] = 'Feuille de style CSS valide';
-$translations['footerXHTMLPicture'] = 'Page web XHTML 1.0 valide';
 $translations['footerWebSiteDevelopedBy'] = 'Site web PHP d&eacute;velopp&eacute; par';
 $translations['footerAllRightsReserved'] = 'Tous droits r&eacute;serv&eacute;s';
 

@@ -174,7 +174,7 @@
 													array('name' => 'Java', 'level' => 90)
 												)),
 												array('title' => $translations['cvWebProgramming'], 'skills' => array(
-													array('name' => 'XHTML',      'level' => 70),
+													array('name' => 'HTML',      'level' => 70),
 													array('name' => 'JavaScript', 'level' => 70),
 													array('name' => 'CSS',        'level' => 70),
 													array('name' => 'JQuery',     'level' => 60),
