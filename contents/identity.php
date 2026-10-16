@@ -8,7 +8,7 @@
 	 */
 
 	defined ('ROOT') or die('Restricted access');
-	
+
 /////////////////////////////////////////////////////////////////////////////////////////
 
 ?>
@@ -35,11 +35,7 @@
     					<img src="pictures/id-picture.jpg" class="img-fluid" alt="<?php echo $name; ?>" title="<?php echo $name; ?>" id="idPicture"/>
     					<div>
     						<h3><b><?php echo $name; ?></b></h3>
-    						
-    						<a href="mailto:<?php echo $email; ?>">
-    							<?php echo $email; ?>
-    						</a><br/>
-    								
+
     						<?php
 								$birthdate = $translations['birthdate'];
 								$dateParts = array();
@@ -67,5 +63,5 @@
 				</div>
 
 <?php
-	
+
 ?>

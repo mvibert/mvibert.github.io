@@ -8,11 +8,11 @@
 	 */
 
 	defined ('ROOT') or die('Restricted access');
-	
+
 /////////////////////////////////////////////////////////////////////////////////////////
 
 ?>
-	
+
 
 			<div class="text-center col">
 				<div id="contact">
@@ -26,14 +26,10 @@
 								displayNetworkSign($networkTitle, $class);
 							}
 						?>
-
-						<a class="btn btn-light" href="mailto:<?php echo $email; ?>" target="_blank">
-							<i class="fas fa-envelope fa-3x text-primary"></i>
-						</a>
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="text-center col">
     			<div class="card">
     				<div id="footer" class="card-header text-white bg-primary row">
@@ -48,7 +44,7 @@
     				</div>
 				</div>
 			</div>
-	
+
 <?php
 
 ?>

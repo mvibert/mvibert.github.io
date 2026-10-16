@@ -38,7 +38,7 @@ downloaded as a PDF.
 ├── admin/                  # Restricted area (denied by .htaccess); holds DB settings
 ├── arrays/                 # Configuration data
 │   ├── common.php          #   pages, languages, networks, skills summary groups
-│   ├── cvInfo.php          #   name, email, CV file formats / MIME types
+│   ├── cvInfo.php          #   name, CV file formats / MIME types
 ├── classes/                # PHP classes (Query helper)
 ├── contents/               # View fragments included by index.php
 │   ├── header.php / menu.php / footer.php
@@ -96,4 +96,4 @@ uploading the files; when not running under WAMP the site treats itself as remot
 
 This is a personal website. Content © Mathieu Vibert — all rights reserved.
 
-Contact: see the links on the site (email and professional networks).
+Contact: see the links on the site (professional networks).
