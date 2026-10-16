@@ -114,7 +114,7 @@
 
 		?>
 
-						<a class="btn btn-light" href="http://<?php echo $link ?>" title="<?php echo $title ?>" target="_blank">
+						<a class="btn btn-light" href="https://<?php echo $link ?>" title="<?php echo $title ?>" target="_blank">
 							<i class="fab <?php echo $class ?> fa-3x text-primary"></i>
 						</a>
 
