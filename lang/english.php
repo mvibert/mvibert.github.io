@@ -25,7 +25,7 @@ $translations['homeContact'] = 'Contact';
 $translations['homeWebsiteInDevelopment'] = 'This website is still in development';
 
 $translations['linkedinLink'] = 'www.linkedin.com/in/mathieufvibert/en';
-$translations['viadeoLink'] = 'www.viadeo.com/en/profile/mathieu.vibert';
+$translations['viadeoLink'] = 'https://viadeo.journaldunet.com/p/mathieu-vibert-4513415';
 
 $translations['summaryTitle'] = 'Summary';
 
